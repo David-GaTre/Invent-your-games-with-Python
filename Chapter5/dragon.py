@@ -7,7 +7,7 @@ def displayIntro():
           and will share his treasure with you. The other dragon
           is greedy and hungry, and will eat you on sight.''')
     print()
-    2
+    
 def chooseCave():
     cave = ' '
     while cave != '1' and cave != '2':
