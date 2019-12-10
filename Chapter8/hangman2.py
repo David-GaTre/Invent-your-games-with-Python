@@ -152,7 +152,7 @@ print("S U P E R  H A N G M A N")
 
 difficulty = ""
 difficulties = ["E", "M", "H"]
-while difficulty not difficulties:
+while difficulty not in difficulties:
     print("Enter difficulty: E - Easy, M - Medium, H - Hard")
     difficulty = input().upper()
 if difficulty == "M":
